@@ -1,0 +1,171 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Daniel Quiroz Garcia</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!-- grupo javascript-->
+<script src ="js/jquery-1.11.2.min.js"></script>
+<script src ="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src ="js/acciones.js"></script>-->
+<script src ="phonegap.js"></script>
+
+
+</head>
+
+<body>
+
+<div data-role="page" id "Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Datos Personales Del Alumno</h1>
+</div>
+<div data-role="main" class="ul-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1> Foto Del Perfil </h1>
+   <div>
+   <p> Esta Es Mi Imagen De Perfil: </p>
+   <br>
+   </div>
+   <div> 
+    <img src="imagenes/fotoperfil.jpg" width="25%" height= "25%">
+    </div>
+    </div>
+    </div>
+<div>
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Datos Generales</h2>
+  <p> Se Muestra El Nombre </p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Fecha De Nacimiento</h2>
+    <p> Se Muestra el Dia, Mes y año de Nacimiento </p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>DOMICILIO</h2>
+  <p> Muestra Domicilo Del Alumno </p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Deporte Favorito</h2>
+    <p> Muestra El Deporte Que Mas Le Agrada Al Alumno </p>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>OTROS GUSTOS E INTERESES</h2>
+    <p> Muestra Otros Gustos Del Alumno</p>
+   </a>
+   </li>
+  </ul>
+  </div> 
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src ="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+    <div>
+      <h4>Aplicacion Dos</h4>
+      <h4>Quiroz Garcia Daniel</h4>
+   </div>
+  </div>
+  </div>
+ <div data-role="page" id="Pagina1" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Nombre</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2> Quiroz Garcia Daniel </h2>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Dos, DQG</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina2" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Fecha De Nacimiento</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2> 19 de junio 2001 </h2>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Dos, DQG</h4>
+   </div>
+  </div>
+ 
+ 
+ <div data-role="page" id="Pagina3" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>DOMICILIO</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2> Andador Ebano Num: 110 Col. Atlixco 90</h2>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Dos, DQG</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina4" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> DEPORTE FAVORITO</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2> Futbol </h2>
+     <img src="imagenes/futbol.jpg" width="200" height= "auto">
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Dos, DQG</h4>
+   </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina5" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> GUSTOS E INTERESES</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2>Tocar instrumentos</h2> </div>
+     <img src="imagenes/PasaTiempo.jpg" width="300" height= "250" >
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/persona_azul.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Dos, DQG</h4>
+   </div>
+  </div>
+</body>
+</html>
