@@ -4,14 +4,22 @@
  id = "com.phonegap.app1"
  version= "1.0.0">
 
-<name> app2 Juan Daniel Tepepa Mejia </name>
+<<<<<<< HEAD
+<name> app2 Quiroz Garcia Daniel </name>
+=======
+<name> app2 Daniel Quiroz Garcia </name>
+>>>>>>> fc771305c2387bb8fbdcf462f21bb179f3ba993f
 
 <description>
 Aplicacion que muestra los datos del Alumno
 </description>
 
-<author href="https://build.phonegap.com" email="juandanieltepepamejia@gmail.com">
-Juan Daniel Tepepa Mejia 
+<author href="https://build.phonegap.com" email="quiroz.daniel.1dm@gmail.com">
+<<<<<<< HEAD
+Daniel Quiroz Garcia
+=======
+Daniel quiroz garcia 
+>>>>>>> fc771305c2387bb8fbdcf462f21bb179f3ba993f
 </author>
 
 <!--Personaliza la aplicacion y plataforma -->
