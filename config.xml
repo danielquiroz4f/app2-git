@@ -5,7 +5,11 @@
  version= "1.0.0">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <name> app2 Quiroz Garcia Daniel </name>
+=======
+<name> app2 Daniel Quiroz Garcia </name>
+>>>>>>> fc771305c2387bb8fbdcf462f21bb179f3ba993f
 =======
 <name> app2 Daniel Quiroz Garcia </name>
 >>>>>>> fc771305c2387bb8fbdcf462f21bb179f3ba993f
@@ -16,7 +20,11 @@ Aplicacion que muestra los datos del Alumno
 
 <author href="https://build.phonegap.com" email="quiroz.daniel.1dm@gmail.com">
 <<<<<<< HEAD
+<<<<<<< HEAD
 Daniel Quiroz Garcia
+=======
+Daniel quiroz garcia 
+>>>>>>> fc771305c2387bb8fbdcf462f21bb179f3ba993f
 =======
 Daniel quiroz garcia 
 >>>>>>> fc771305c2387bb8fbdcf462f21bb179f3ba993f
